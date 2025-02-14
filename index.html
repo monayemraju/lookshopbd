@@ -1,0 +1,789 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.js.map"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>Home | Lookshop BD</title>
+
+</head>
+<body>
+
+  <!--Header-->
+
+  <header class="container-fluid ">
+    <div class="d-flex justify-content-between bg-light  nav-item text-secondary hover-effect">
+      <div> <a class="nav-link" href="">
+        <span> <i class="fa-solid fa-phone-volume"></i> Call:01323283472</span>
+      </a>
+      </div>
+      <div ><a class="nav-link" href="#">Sign in / Sign up</a></div>
+    </div>
+  </header>
+
+   <!--Header-->
+
+  <!--Logo-->
+
+  <div class="container-fluid d-flex my-3  justify-content-between logo">
+    <div>
+      <a class="navbar-brand " href="#"><img class="img-fluid" style="max-width: 110px;" src="photo/logo.png" alt=""></a>
+    </div>
+    <div class="input-group search-box" style="max-width: 35%; margin-right: 210px;">
+      <input  type="text" class="form-control btn border-danger" placeholder="Search Product">
+      <button class="button-color"><i class="fas fa-search"></i></button>
+    </div>
+    <div class=" logo-cart" style="font-size: 25px; color: rgb(79, 75, 75);">
+      <i class="fa-solid fa-cart-plus"> <span class="carts-font mt-2">Cart</span></i>
+    </div>
+  </div>
+
+  <!--Logo-->
+
+
+   <!--Navber-->
+
+  
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white ">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="dropdown col-lg-4 col-xl-4  d-none d-lg-block">
+        <button class=" browse-cetagori " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Browse Cetagories <span class="navbar-toggler-icon"></span>
+        </button>
+        <ul class="dropdown-menu" style="width: 295px; margin-left: 10px; margin-top: 0;">
+          <li><a class="dropdown-item" href="#">Hair Care</a></li>
+          <div class="dropdown-divider"></div>
+          <li><a class="dropdown-item" href="#">Skin Care</a></li>
+          <div class="dropdown-divider"></div>
+          <li><a class="dropdown-item" href="#">Makeup</a></li>
+          <div class="dropdown-divider"></div>
+          <li><a class="dropdown-item" href="#">Mother & Baby</a></li>
+          <div class="dropdown-divider"></div>
+          <li><a class="dropdown-item" href="#">Lip Care</a></li>
+          <div class="dropdown-divider"></div>
+          <li><a class="dropdown-item" href="#">Fragrance</a></li>
+          <div class="dropdown-divider"></div>
+          <li><a class="dropdown-item" href="#">Parsonal Care</a></li>
+          <div class="dropdown-divider"></div>
+          <li><a class="dropdown-item" href="#">Body Care</a></li>
+          <div class="dropdown-divider"></div>
+          <li><a class="dropdown-item" href="#">Bread Care</a></li>
+          <div class="dropdown-divider"></div>
+          <li><a class="dropdown-item" href="#"></a>Food Supplyments</li>
+          <div class="dropdown-divider"></div>
+          <li><a class="dropdown-item" href="#">Eye Care</a></li>
+        </ul>
+      </div>
+        <div class="col-xl-8 col-lg-8 col-md-12 py-2">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent ">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-3 navbar-size">
+              <li class="nav-item">
+                <a class="nav-link href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link href="#">Product</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Hot Deals
+                </a>
+              </li>
+             <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Offer  Product
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                About Us
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Contact Us
+              </a>
+            </li>     
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+  <!--Navber-->
+
+<!--Cover Photo-->
+
+
+<div class="row">
+  <div class="">
+    <div id="carouselExample" class="carousel slide position-stiky">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="photo/cover photo 2.jpg" class="d-block w-100" alt="01">
+        </div>
+        <div class="carousel-item">
+          <img src="photo/cover photo 4.jpg" class="d-block w-100" alt="02">
+        </div>
+        <div class="carousel-item">
+          <img src="photo/cover photo1.jpg" class="d-block w-100" alt="03">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+</div>
+
+<!--Cover Photo-->
+
+
+
+  <!--Product Hints-->
+
+
+ <div>
+  <div class="container my-5">
+    <h2 class="text-center" style="color: rgb(77, 74, 74);">Explore Popular Categories</h2>
+    <div class="row text-center mt-4">
+        <div class="col-6 col-sm-4 col-lg-2">
+            <div class="category-card">
+                <img src="photo/baby care.jpg" alt="Body Care">
+                <h5>Body Care</h5>
+            </div>
+        </div>
+        <div class="col-6 col-sm-4 col-lg-2">
+            <div class="category-card">
+                <img src="photo/makeup.jpg" alt="Makeup">
+                <h5>Makeup</h5>
+            </div>
+        </div>
+        <div class="col-6 col-sm-4 col-lg-2">
+            <div class="category-card">
+                <img src="photo/skine care.png" alt="Skin Care">
+                <h5>Skin Care</h5>
+            </div>
+        </div>
+        <div class="col-6 col-sm-4 col-lg-2">
+            <div class="category-card">
+                <img src="photo/hair care.jpg" alt="Hair Care">
+                <h5>Hair Care</h5>
+            </div>
+        </div>
+    </div>
+  </div>
+
+
+
+  <!--Product Hints-->
+
+  <!--Product Details-->
+
+  <div class="container-fluid all-product">
+    <div class="for_you">Recommended For You</div>
+    <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12 shadow-box">
+            <div class="product position-relative">
+                <div class="percent position-absolute">40% off</div>
+                <img src="photo/Aloe vera gel.jpg" class="img-fluid" alt="1">
+                <h5 class="title">Face Wash</h5>
+                <h3 class="name">MamaEarth Alo Vera Gel</h3>
+                <p class="prices">1100.00 TK <span class="price">1600.00 TK</span></p>
+                <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+          <div class="product position-relative">
+              <div class="percent position-absolute">46% off</div>
+              <img src="photo/image_665eb0c02e28f.jpg" class="img-fluid" alt="2">
+              <h5 class="title">Face Wash</h5>
+              <h3 class="name">Aroma Magic Face Wash</h3>
+              <p class="prices">900.00 TK <span class="price">1440.00 TK</span></p>
+              <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+          </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+        <div class="product position-relative">
+            <div class="percent position-absolute">36% off</div>
+            <img src="photo/image_665eb553803b2.jpg" class="img-fluid" alt="3">
+            <h5 class="title">Hair Care</h5>
+            <h3 class="name">MamaEarth Onion Shampoo</h3>
+            <p class="prices">600.00 TK <span class="price">840.00 TK</span></p>
+            <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+      <div class="product position-relative">
+          <div class="percent position-absolute">39% off</div>
+          <img src="photo/image_665ebd5b22544.jpg" class="img-fluid" alt="4">
+          <h5 class="title">Hair Care</h5>
+          <h3 class="name">MamaEarth Onion Conditioner</h3>
+          <p class="prices">700.00 TK <span class="price">1040.00 TK</span></p>
+          <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+      </div>
+  </div>
+  <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+    <div class="product position-relative">
+        <div class="percent position-absolute">37% off</div>
+        <img src="photo/image_665ece1a1fea1.jpg" class="img-fluid" alt="5">
+        <h5 class="title">Body  Care</h5>
+        <h3 class="name">Gentle Skin Cleanser 750ml</h3>
+        <p class="prices">750.00 TK <span class="price">1090.00 TK</span></p>
+        <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+    </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+  <div class="product position-relative">
+      <div class="percent position-absolute">30% off</div>
+      <img src="photo/image_665ecf5919811.jpg" class="img-fluid" alt="6">
+      <h5 class="title">Body  Care</h5>
+      <h3 class="name">Gentle Skin Cleanser 500ml</h3>
+      <p class="prices">550.00 TK <span class="price">890.00 TK</span></p>
+      <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+  </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+  <div class="product position-relative">
+      <div class="percent position-absolute">50% off</div>
+      <img src="photo/image_665ed457b65db.jpg" class="img-fluid" alt="7">
+      <h5 class="title">Hair Care</h5>
+      <h3 class="name">Hair Volumizing Power Wax</h3>
+      <p class="prices">545.00 TK <span class="price">1090.00 TK</span></p>
+      <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+  </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+  <div class="product position-relative">
+      <div class="percent position-absolute">30% off</div>
+      <img src="photo/image_665ed508c0bde.jpg" class="img-fluid" alt="8">
+      <h5 class="title">Skin Care</h5>
+      <h3 class="name">Minimalist Marula Oil 0.5%</h3>
+      <p class="prices">550.00 TK <span class="price">890.00 TK</span></p>
+      <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+  </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+  <div class="product position-relative">
+      <div class="percent position-absolute">20% off</div>
+      <img src="photo/image_665ed72e9aff5.jpg" class="img-fluid" alt="9">
+      <h5 class="title">Skin  Care</h5>
+      <h3 class="name">Minimalist 0.3% Retinol</h3>
+      <p class="prices">450.00 TK <span class="price">590.00 TK</span></p>
+      <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+  </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+  <div class="product position-relative">
+      <div class="percent position-absolute">31% off</div>
+      <img src="photo/image_666002f23e929.png" class="img-fluid" alt="10">
+      <h5 class="title">Face Wash</h5>
+      <h3 class="name">Aroma Magic Neem Face Wash</h3>
+      <p class="prices">950.00 TK <span class="price">1390.00 TK</span></p>
+      <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+  </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+  <div class="product position-relative">
+      <div class="percent position-absolute">30% off</div>
+      <img src="photo/image_6660052f204e5.jpg" class="img-fluid" alt="11">
+      <h5 class="title">Face Wash</h5>
+      <h3 class="name">See & Bechces Face Wash</h3>
+      <p class="prices">750.00 TK <span class="price">1170.00 TK</span></p>
+      <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+  </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+  <div class="product position-relative">
+      <div class="percent position-absolute">32% off</div>
+      <img src="photo/image_666006c5d1650.jpg" class="img-fluid" alt="12">
+      <h5 class="title">Hair  Care</h5>
+      <h3 class="name">Coconut & Alo Vera Shampoo</h3>
+      <p class="prices">690.00 TK <span class="price">890.00 TK</span></p>
+      <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+  </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+  <div class="product position-relative">
+      <div class="percent position-absolute">30% off</div>
+      <img src="photo/image_66600ab3ec047.png" class="img-fluid" alt="13">
+      <h5 class="title">Hair  Care</h5>
+      <h3 class="name">Brintop F Hair Serome Cream</h3>
+      <p class="prices">640.00 TK <span class="price">930.00 TK</span></p>
+      <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+  </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+  <div class="product position-relative">
+      <div class="percent position-absolute">10% off</div>
+      <img src="photo/image_66600cd894aba.jpg" class="img-fluid" alt="14">
+      <h5 class="title">Hair  Care</h5>
+      <h3 class="name">Beard Hair Oil 50ml</h3>
+      <p class="prices">1160.00 TK <span class="price">1250.00 TK</span></p>
+      <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+  </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+  <div class="product position-relative">
+      <div class="percent position-absolute">40% off</div>
+      <img src="photo/image_66600dd133a5a.jpg" class="img-fluid" alt="15">
+      <h5 class="title">Hair  Care</h5>
+      <h3 class="name">Beard Growth Oil 100ml</h3>
+      <p class="prices">500.00 TK <span class="price">890.00 TK</span></p>
+      <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+  </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+  <div class="product position-relative">
+      <div class="percent position-absolute">26% off</div>
+      <img src="photo/image_66600fd69f7b2.png" class="img-fluid" alt="16">
+      <h5 class="title">Skin  Care</h5>
+      <h3 class="name">Heabal Skin Lightinening Oil</h3>
+      <p class="prices">1250.00 TK <span class="price">1520.00 TK</span></p>
+      <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+  </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+  <div class="product position-relative">
+      <div class="percent position-absolute">33% off</div>
+      <img src="photo/image_66601bf3422e8.jpg" class="img-fluid" alt="17">
+      <h5 class="title">Hair Care</h5>
+      <h3 class="name">Re-Stylable Clay Heir Wax</h3>
+      <p class="prices">620.00 TK <span class="price">870.00 TK</span></p>
+      <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+  </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+  <div class="product position-relative">
+      <div class="percent position-absolute">40% off</div>
+      <img src="photo/image_66601caac72e4.jpg" class="img-fluid" alt="18">
+      <h5 class="title">Hair  Care</h5>
+      <h3 class="name">Heir Removal Clear Sprat</h3>
+      <p class="prices">550.00 TK <span class="price">890.00 TK</span></p>
+      <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+  </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+  <div class="product position-relative">
+      <div class="percent position-absolute">35% off</div>
+      <img src="photo/image_66601deb82b74 (1).jpg" class="img-fluid" alt="19">
+      <h5 class="title">Hair Care</h5>
+      <h3 class="name">Jadibim Heir Oil 500ml</h3>
+      <p class="prices">350.00 TK <span class="price">590.00 TK</span></p>
+      <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+  </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+  <div class="product position-relative">
+      <div class="percent position-absolute">30% off</div>
+      <img src="photo/image_66601deb82b74.jpg" class="img-fluid" alt="20">
+      <h5 class="title">Body  Care</h5>
+      <h3 class="name">Gentle Skin Cleanser 300ml</h3>
+      <p class="prices">450.00 TK <span class="price">690.00 TK</span></p>
+      <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+  </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+  <div class="product position-relative">
+      <div class="percent position-absolute">65% off</div>
+      <img src="photo/image_66601ffca6457.jpg" class="img-fluid" alt="21">
+      <h5 class="title">Hair  Care</h5>
+      <h3 class="name">Hair Comb Agua Wax</h3>
+      <p class="prices">850.00 TK <span class="price">1890.00 TK</span></p>
+      <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+  </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+  <div class="product position-relative">
+      <div class="percent position-absolute">46% off</div>
+      <img src="photo/image_6660219d1a7eb (1).jpg" class="img-fluid" alt="22">
+      <h5 class="title">Face Wash</h5>
+      <h3 class="name">Man Cooling Face Wash 140g</h3>
+      <p class="prices">500.00 TK <span class="price">890.00 TK</span></p>
+      <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+  </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+  <div class="product position-relative">
+      <div class="percent position-absolute">35% off</div>
+      <img src="photo/image_6660219d1a7eb.jpg" class="img-fluid" alt="23">
+      <h5 class="title">Face Wash</h5>
+      <h3 class="name">Man Cooling Face Wash 200g</h3>
+      <p class="prices">650.00 TK <span class="price">920.00 TK</span></p>
+      <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+  </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+  <div class="product position-relative">
+      <div class="percent position-absolute">21% off</div>
+      <img src="photo/image_666022505251c.png" class="img-fluid" alt="24">
+      <h5 class="title">Hair  Care</h5>
+      <h3 class="name">Man Hair Serum</h3>
+      <p class="prices">890.00 TK <span class="price">1090.00 TK</span></p>
+      <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+  </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+  <div class="product position-relative">
+      <div class="percent position-absolute">34% off</div>
+      <img src="photo/image_6660913493c00.jpg" class="img-fluid" alt="25">
+      <h5 class="title">Face Wash</h5>
+      <h3 class="name"> Lavender Face Wash</h3>
+      <p class="prices">490.00 TK <span class="price">670.00 TK</span></p>
+      <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+  </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+  <div class="product position-relative">
+      <div class="percent position-absolute">29% off</div>
+      <img src="photo/image_666093820acc2 (1).jpg" class="img-fluid" alt="26">
+      <h5 class="title">Body  Care</h5>
+      <h3 class="name">Aroma Magic Sunblock Lotion</h3>
+      <p class="prices">540.00 TK <span class="price">890.00 TK</span></p>
+      <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+  </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+  <div class="product position-relative">
+      <div class="percent position-absolute">30% off</div>
+      <img src="photo/image_666093820acc2.jpg" class="img-fluid" alt="27">
+      <h5 class="title">Body  Care</h5>
+      <h3 class="name">Aroma Magic Night Lotion</h3>
+      <p class="prices">550.00 TK <span class="price">890.00 TK</span></p>
+      <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+  </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+  <div class="product position-relative">
+      <div class="percent position-absolute">28% off</div>
+      <img src="photo/image_66609482174d5 (1).jpg" class="img-fluid" alt="28">
+      <h5 class="title">Hair  Care</h5>
+      <h3 class="name">Woman Hair Clay Matty Wax</h3>
+      <p class="prices">450.00 TK <span class="price">740.00 TK</span></p>
+      <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+  </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+  <div class="product position-relative">
+      <div class="percent position-absolute">35% off</div>
+      <img src="photo/image_66609482174d5.jpg" class="img-fluid" alt="29">
+      <h5 class="title">Hair Care</h5>
+      <h3 class="name">Man Hair Clay Matty Wax</h3>
+      <p class="prices">350.00 TK <span class="price">620.00 TK</span></p>
+      <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+  </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+  <div class="product position-relative">
+      <div class="percent position-absolute">27% off</div>
+      <img src="photo/image_6660958cbd2eb.jpg" class="img-fluid" alt="30">
+      <h5 class="title">Hair  Care</h5>
+      <h3 class="name">Hair Wax Xxtra Strong Hold</h3>
+      <p class="prices">580.00 TK <span class="price">870.00 TK</span></p>
+      <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+  </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+  <div class="product position-relative">
+      <div class="percent position-absolute">32% off</div>
+      <img src="photo/image_666c78186bd9d.jpg" class="img-fluid" alt="31">
+      <h5 class="title">Face  Wash</h5>
+      <h3 class="name">Beetroot Hydraful Moisturizer</h3>
+      <p class="prices">730.00 TK <span class="price">1190.00 TK</span></p>
+      <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+  </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+  <div class="product position-relative">
+      <div class="percent position-absolute">38% off</div>
+      <img src="photo/image_666c7aa2ae292.jpg" class="img-fluid" alt="32">
+      <h5 class="title">Face Wash</h5>
+      <h3 class="name">MamaEarth Ubtan Face Mask</h3>
+      <p class="prices">650.00 TK <span class="price">1120.00 TK</span></p>
+      <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+  </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+  <div class="product position-relative">
+      <div class="percent position-absolute">24% off</div>
+      <img src="photo/image_666d9a4523a0f.jpg" class="img-fluid" alt="33">
+      <h5 class="title">Face  Wash</h5>
+      <h3 class="name">Rice Oil Free Face Moisturizer</h3>
+      <p class="prices">830.00 TK <span class="price">1190.00 TK</span></p>
+      <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+  </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+  <div class="product position-relative">
+      <div class="percent position-absolute">26% off</div>
+      <img src="photo/image_666db8ae98c99.jpg" class="img-fluid" alt="34">
+      <h5 class="title">Face  Wash</h5>
+      <h3 class="name">Ubtan Ultro Light Gel</h3>
+      <p class="prices">740.00 TK <span class="price">1040.00 TK</span></p>
+      <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+  </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+  <div class="product position-relative">
+      <div class="percent position-absolute">37% off</div>
+      <img src="photo/image_666db9b30019f.jpg" class="img-fluid" alt="35">
+      <h5 class="title">Face  Wash</h5>
+      <h3 class="name">Ubtan Oil Free Face Moisturizer</h3>
+      <p class="prices">770.00 TK <span class="price">1070.00 TK</span></p>
+      <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+  </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+  <div class="product position-relative">
+      <div class="percent position-absolute">44% off</div>
+      <img src="photo/image_666f129ac87e7.jpg" class="img-fluid" alt="36">
+      <h5 class="title">Body Care</h5>
+      <h3 class="name">MamaEarth Baby Care</h3>
+      <p class="prices">330.00 TK <span class="price">590.00 TK</span></p>
+      <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+  </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+  <div class="product position-relative">
+      <div class="percent position-absolute">46% off</div>
+      <img src="photo/image_666f1403377a2.jpg" class="img-fluid" alt="37">
+      <h5 class="title">Body Care</h5>
+      <h3 class="name">MamaEarth Baby Powder</h3>
+      <p class="prices">450.00 TK <span class="price">780.00 TK</span></p>
+      <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+  </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+  <div class="product position-relative">
+      <div class="percent position-absolute">34% off</div>
+      <img src="photo/image_666f184a16105 (1).jpg" class="img-fluid" alt="38">
+      <h5 class="title">Hair Care</h5>
+      <h3 class="name">MamaEarth Hair Oil 250ml</h3>
+      <p class="prices">430.00 TK <span class="price">610.00 TK</span></p>
+      <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+  </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+  <div class="product position-relative">
+      <div class="percent position-absolute">29% off</div>
+      <img src="photo/image_666f184a16105.jpg" class="img-fluid" alt="39">
+      <h5 class="title">Hair Care</h5>
+      <h3 class="name">MamaEarth Hair Oil 200ml</h3>
+      <p class="prices">330.00 TK <span class="price">490.00 TK</span></p>
+      <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+  </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+  <div class="product position-relative">
+      <div class="percent position-absolute">36% off</div>
+      <img src="photo/image_666f1a819066e.jpg" class="img-fluid" alt="40">
+      <h5 class="title">Body Care</h5>
+      <h3 class="name">MamaEarth Body Powder</h3>
+      <p class="prices">310.00 TK <span class="price">470.00 TK</span></p>
+      <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+  </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+  <div class="product position-relative">
+      <div class="percent position-absolute">34% off</div>
+      <img src="photo/image_6672e681e6715.jpg" class="img-fluid" alt="41">
+      <h5 class="title">Body Care</h5>
+      <h3 class="name">MamaEarth Lotion</h3>
+      <p class="prices">530.00 TK <span class="price">790.00 TK</span></p>
+      <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+  </div>
+</div><div class="col-lg-3 col-md-4 col-sm-6 col-12">
+  <div class="product position-relative">
+      <div class="percent position-absolute">21% off</div>
+      <img src="photo/image_6672fee00bbac.jpg" class="img-fluid" alt="42">
+      <h5 class="title">Body Care</h5>
+      <h3 class="name">MamaEarth Moisturizer Lotion</h3>
+      <p class="prices">560.00 TK <span class="price">740.00 TK</span></p>
+      <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+  </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+  <div class="product position-relative">
+      <div class="percent position-absolute">29% off</div>
+      <img src="photo/image_66730ee8ac534.jpg" class="img-fluid" alt="43">
+      <h5 class="title">Hair Care</h5>
+      <h3 class="name">Rosemary Anty-Hair Fal</h3>
+      <p class="prices">530.00 TK <span class="price">880.00 TK</span></p>
+      <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+  </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+  <div class="product position-relative">
+      <div class="percent position-absolute">24% off</div>
+      <img src="photo/image_667449a6dcd85.jpg" class="img-fluid" alt="44">
+      <h5 class="title">Face  Wash</h5>
+      <h3 class="name">Hibiscus Damage Repair Shampoo</h3>
+      <p class="prices">830.00 TK <span class="price">1190.00 TK</span></p>
+      <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+  </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+  <div class="product position-relative">
+      <div class="percent position-absolute">33% off</div>
+      <img src="photo/image_66d89c16ba347 (1).jpg" class="img-fluid" alt="45">
+      <h5 class="title">Hair Care</h5>
+      <h3 class="name">Hair Volumizing Powder Wax 320g</h3>
+      <p class="prices">630.00 TK <span class="price">1090.00 TK</span></p>
+      <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+  </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+  <div class="product position-relative">
+      <div class="percent position-absolute">26% off</div>
+      <img src="photo/image_66d89c16ba347.jpg" class="img-fluid" alt="46">
+      <h5 class="title">Hair Care</h5>
+      <h3 class="name">Hair Volumizing Powder Wax 250g</h3>
+      <p class="prices">450.00 TK <span class="price">630.00 TK</span></p>
+      <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+  </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+  <div class="product position-relative">
+      <div class="percent position-absolute">34% off</div>
+      <img src="photo/image_66d89eceb8061.jpg" class="img-fluid" alt="47">
+      <h5 class="title">Body Care</h5>
+      <h3 class="name">Gel Sunscreen</h3>
+      <p class="prices">530.00 TK <span class="price">760.00 TK</span></p>
+      <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+  </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+  <div class="product position-relative">
+      <div class="percent position-absolute">31% off</div>
+      <img src="photo/image_66d8a0a58a343 (1).jpg" class="img-fluid" alt="48">
+      <h5 class="title">Hair Care</h5>
+      <h3 class="name">Hair Volumizing Powder Wax 260g</h3>
+      <p class="prices">435.00 TK <span class="price">620.00 TK</span></p>
+      <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+  </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+  <div class="product position-relative">
+      <div class="percent position-absolute">24% off</div>
+      <img src="photo/image_66d8a0a58a343.jpg" class="img-fluid" alt="49">
+      <h5 class="title">Hair Care</h5>
+      <h3 class="name">Hair Volumizing Powder Wax 200g</h3>
+      <p class="prices">830.00 TK <span class="price">1190.00 TK</span></p>
+      <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+  </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+  <div class="product position-relative">
+      <div class="percent position-absolute">23% off</div>
+      <img src="photo/minimalist hair growth.jpg" class="img-fluid" alt="50">
+      <h5 class="title">Hair Care</h5>
+      <h3 class="name">Minimalist Hair Growth</h3>
+      <p class="prices">730.00 TK <span class="price">1190.00 TK</span></p>
+      <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+  </div>
+</div>
+<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+  <div class="product position-relative">
+      <div class="percent position-absolute">43% off</div>
+      <img src="photo/Minimalist sunscreen.jpg" class="img-fluid" alt="51">
+      <h5 class="title">Body Care</h5>
+      <h3 class="name">Minimalist Sunscreen</h3>
+      <p class="prices">299.00 TK <span class="price">490.00 TK</span></p>
+      <button class="btn btn-danger"><i class="fa-solid fa-cart-plus"></i> Add to Cart</button>
+  </div>
+</div>
+
+
+    </div>
+</div>
+
+  <!--Product Details-->
+
+  <!--Footer-->
+
+
+<footer class="container-fluid pt-5 ">
+  <div class="row justify-content-between">
+      <div class="col-md-12 col-lg-3 mt-3"> 
+        <div>
+          <a class="navbar-brand me-5" href="#"><img class="img-fluid mb-4" style="max-width: 110px;" src="photo/logo.png" alt=""></a>
+        </div>
+        <div class="got-question">
+          <p>Got <br> Question? <br> Call us 24/7</p>
+        </div>
+        <div class="nav-item nav-items">
+            <a class="nav-link" href="#">+8801323283472</a>
+            <a class="nav-link" href="#">lookshop@gmail.com</a>
+        </div>
+      </div>
+
+      <div class="col-sm-4 col-lg-3 mt-3">
+        <h6 class="">Quick Access</h6>
+        <ul class="hover-link">
+          <li class="nav-link"><a class="nav-link " href="#"><i class="fa-regular fa-eye me-1"></i> Eye Care</a></li>
+          <li class="nav-link"><a class="nav-link" href="#"><i class="fa-regular fa-face-grimace me-1"></i> Make Up</a></li>
+          <li class="nav-link"><a class="nav-link" href="#"><i class="fa-solid fa-bowl-rice me-1 "></i> Food Supplyments</a></li>
+          <li class="nav-link"><a class="nav-link" href="#"><i class="fa-solid fa-hands-holding-child me-1"></i> Skin Care</a></li>
+          <li class="nav-link"><a class="nav-link" href="#"><i class="fa-solid fa-stairs me-1"></i> Hair Care</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-4 col-lg-3 mt-3">
+        <h6>Information</h6>
+        <ul class="hover-link">
+          <li class="nav-link"><a class="nav-link" href="#"><i class="fa-regular fa-address-card me-1"></i> About</a></li>
+          <li class="nav-link"><a class="nav-link" href="#"><i class="fa-solid fa-person-circle-question me-1"></i> Mission Vission</a></li>
+          <li class="nav-link"><a class="nav-link" href="#"><i class="fa-solid fa-hand-sparkles me-1"></i> Tearms & Conditions</a></li>
+          <li class="nav-link"><a class="nav-link" href="#"><i class="fa-solid fa-pager me-2"></i> Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-4 col-lg-3 mt-3">
+        <h6>Our Sosial Media</h6>
+        <ul class="hover-link">
+          <li class="nav-link"><a class="nav-link" href="#"><i class="fa-brands fa-facebook me-1"></i> Facebook</a></li>
+          <li class="nav-link"><a class="nav-link" href="#"><i class="fa-brands fa-youtube me-1"></i> YouTube</a></li>
+          <li class="nav-link"><a class="nav-link" href="#"><i class="fa-brands fa-twitter me-1"></i> Twitter</a></li>
+          <li class="nav-link"><a class="nav-link" href="#"><i class="fa-brands fa-instagram me-1"></i> Instagram</a></li>
+          <li class="nav-link"><a class="nav-link" href="#"><i class="fa-brands fa-linkedin me-1"></i> Linkedin</a></li>
+        </ul>
+      </div>
+  </div>
+</footer>
+
+  <!--Footer-->   
+
+  <!--Finish-->
+
+  <section class="container-fluid py-2 mt-3 finish">
+     <div class="d-flex justify-content-between">
+      <div class="dismiss">Copyright © Lookshop BD. All Rights Reserved.</div>
+      <div class="dismiss">Desing & Develop By <span class="nav-item"><a class="codespace" href="https://www.facebook.com/share/1AFbBWBaj1/"> Monayem Raju</a></span></div>
+     </div>
+  </section>
+
+  <!--Finish-->
+
+
+</body>
+</html>
+
+
+
+
